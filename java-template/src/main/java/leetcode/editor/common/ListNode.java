@@ -32,4 +32,12 @@ public class ListNode {
             System.out.print(cur.val + arrow);
         }
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
+    }
 }

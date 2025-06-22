@@ -2,7 +2,7 @@ package leetcode.algorithm.string;
 
 
 /**
- * @author jiangyinsuo
+ * @author liuzx
  * @date 2025/6/19 17:25
  * @Description:大数加法_牛客题霸_牛客网
  * https://www.nowcoder.com/practice/11ae12e8c6fe48f883cad618c2e81475?tpId=196&tqId=37176&ru=/exam/oj

@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * 46 全排列
  */
-public class VvJkup_46 {
+public class Permutations_46 {
     class Solution {
         List<List<Integer>> res = new LinkedList<>();
 
@@ -49,7 +49,7 @@ public class VvJkup_46 {
 
     
     public static void main(String[] args) {
-        Solution solution = new VvJkup_46().new Solution();
+        Solution solution = new Permutations_46().new Solution();
         // put your test code here
         
     }

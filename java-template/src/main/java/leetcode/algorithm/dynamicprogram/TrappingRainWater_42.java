@@ -40,6 +40,8 @@ public class TrappingRainWater_42 {
 
             int res = 0;
             for (int i = 0; i < n; i++) {
+                // 计算每个位置能接的水量 : min(leftMax[i], rightMax[i]) - height[i]
+                // 累加所有位置的储水量，得到最终结果
                 res += Math.min(leftMax[i], rightMax[i]) - height[i];
             }
 
